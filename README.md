@@ -1,2 +1,2 @@
 # it_wiki
-[![N|Solid](https://steamuserimages-a.akamaihd.net/ugc/919172327776027315/BD524A710D6312BAEB0798C17B31B772F41581AA/?imw=512&amp;imh=512&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://img2.joyreactor.cc/pics/post/full/gachimuchi-Billy-Herrington-%D1%81%D0%BC%D0%B5%D1%88%D0%BD%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-4705422.jpeg)](https://nodesource.com/products/nsolid)

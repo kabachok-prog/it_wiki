@@ -1,0 +1,5 @@
+.lead {
+    background-image: url(/images/bg-lead.png);
+    min-height: 778px;
+    position: relative;
+}

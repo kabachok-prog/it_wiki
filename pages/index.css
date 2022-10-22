@@ -8,3 +8,10 @@
 @import url(../blocks/header/__nav-bar/header__nav-bar.css);
 @import url(../blocks/header/__nav-link/header__nav-link.css);
 @import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__button/lead__button.css);
+@import url(../blocks/lead/__container/lead__container.css);
+@import url(../blocks/lead/__info/lead__info.css);
+@import url(../blocks/lead/__pic/lead__pic.css);
+@import url(../blocks/lead/__text/lead__text.css);
+@import url(../blocks/lead/__title/lead__title.css);

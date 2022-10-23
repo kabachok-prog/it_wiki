@@ -1,0 +1,10 @@
+.squares__container {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    line-height: 50.19px;
+    text-align: right;
+    font-weight: 500;
+    padding-top: 287px;
+    justify-content: space-between;
+}

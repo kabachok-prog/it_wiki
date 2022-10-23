@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,132 @@
     <title>ITWiki</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
+
 <body>
     <div class="page">
         <header class="header">
-                <div class="header__logo">
-                    <img src="./././images/logo.svg" alt="Логотип" class="header__logo-pic">
-                    <p class="header__logo-text">IT Land</p>
-                </div>
-                <nav class="header__nav-bar">
-                    <a href="#" class="header__nav-link">Подписки</a>
-                    <a href="#" class="header__nav-link">О нас</a>
-                    <a href="#" class="header__nav-link">Контакты</a>
-                </nav>
+            <div class="header__logo">
+                <img src="./././images/logo.svg" alt="Логотип" class="header__logo-pic">
+                <p class="header__logo-text">IT Land</p>
+            </div>
+            <nav class="header__nav-bar">
+                <a href="#" class="header__nav-link">Подписки</a>
+                <a href="#" class="header__nav-link">О нас</a>
+                <a href="#" class="header__nav-link">Контакты</a>
+            </nav>
         </header>
-        <script src="./script.js"></script> 
-    </div>   
+        <main class="main">
+            <section class="main__description description">
+                <div class="container">
+                    <div class="description__inner">
+                        <div class="description__header">
+                            <div class="description__head">
+                                Для кого он?
+                            </div>
+                            <div class="description__text">
+                                Мы <span>постарались</span> создать такой продукт, который будет
+                                полезен не только специалистам высокого класса, но и людям, только попавшим в IT
+                            </div>
+                        </div>
+                        <div class="description__content">
+                            <img class="description__img" src="./images/about_images/grid.svg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__about about">
+                <div class="container">
+                    <div class="about__inner">
+                        <div class="about__content brand-logo">
+                            <img class="about__img test" src="./images/about_images/1.jpg" />
+                        </div>
+                        <div class="about__text">
+                            <h1 class="about__text-header">
+                                Что есть в нашем справочнике?
+                            </h1>
+                            <div class="about__text-desc">
+                                Мы постарались собрать самую важную информацию, которая
+                                <span>поможет любому</span> IT специалисту
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__directory directory">
+                <div class="container__directory">
+                    <div class="directory__inner">
+                        <div class="directory__header">
+                            <div class="directory__title">
+                                Социальная <span>сеть</span> внутри справочника
+                            </div>
+                            <div class="directoru__desc">
+                                Вы сможете общаться, делиться информацией, собирать буткемпы и просто знакомиться с
+                                новыми крутыми людьми
+                            </div>
+                        </div>
+                        <div class="directory__content">
+                            <div class="directory__img">
+                                <img src="./images/directory__image/1.jpg" alt="">
+                                <img src="./images/directory__image/2.jpg" alt="">
+                                <img src="./images/directory__image/3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__socials socials">
+                <div class="container">
+                    <div class="socials__inner">
+                        <div class="socials__header">
+                            <div class="socials__title">
+                                Эксперты
+                            </div>
+                            <div class="socials__desc">
+                                Которые помогут решить <span>любую</span> проблему
+                            </div>
+                        </div>
+                        <div class="socials__content">
+                            <div class="socials__image-1"></div>
+                            <div class="socials__image-2"></div>
+                            <div class="socials__image-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__content">
+                <!-- <div class="footer__line"></div> -->
+                <div class="footer__logo">
+                    <div class="footer__img">
+                        <img src="./images/logo-mini.svg" alt="">
+                    </div>
+                    <div class="footer__name">
+                        IT Land
+                    </div>
+                </div>
+                <div class="footer__support">
+                    <a href="mailto:it_land@gmail.com" class="footer_mail">it_land@gmail.com</a>
+                    <div class="footer__support-help">Служба поддержки</div>
+                </div>
+                <div class="footer__about">
+                    <div class="footer__about-text">Пресса о нас</div>
+                    <div class="footer__about-text">Мероприятия</div>
+                    <div class="footer__about-text">Контакты</div>
+                </div>
+                <div class="footer__socials">
+                    <div class="footer__socials-title">Присоединяйтесь к нам в социальных сетях</div>
+                    <div class="footer__socials-image">
+                        <div class="footer__socials-img"></div>
+                        <div class="footer__socials-img"></div>
+                        <div class="footer__socials-img"></div>
+                        <div class="footer__socials-img"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
+<!-- <script src="./js/about.js"></script> -->
+
 </html>

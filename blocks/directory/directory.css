@@ -1,0 +1,47 @@
+.main__directory {}
+
+.directory {}
+
+.container__directory {}
+
+.directory__inner {
+  padding-bottom: 374px;
+}
+
+.directory__header {
+  text-align: center;
+}
+
+.directory__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 65px;
+  line-height: 79px;
+  color: #FFFFFF;
+  max-width: 793px;
+  max-height: 158px;
+  padding: 0 564px;
+  padding-top: 208px;
+}
+
+.directory__title span {
+  color: #172CE7;
+}
+
+.directoru__desc {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 136.9%;
+  color: #FFFFFF;
+  max-width: 1141px;
+  max-height: 96px;
+  padding: 0 390px;
+  padding-top: 40px;
+}
+
+.directory__content {}
+
+.directory__img {}

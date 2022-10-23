@@ -1,0 +1,63 @@
+.footer {
+  background: #111;
+}
+
+.footer__content {
+  display: flex;
+  padding: 0 100px;
+}
+
+.footer__line {}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer__img {}
+
+.footer__name {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+  margin-left: 24px;
+  margin-right: 125px;
+}
+
+.footer__support:first-child {
+  margin-bottom: 24px;
+}
+
+.footer_mail {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__support-help {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.footer__about {}
+
+.footer__about-text {}
+
+.footer__socials {}
+
+.footer__socials-title {}
+
+.footer__socials-image {}
+
+.footer__socials-img {}

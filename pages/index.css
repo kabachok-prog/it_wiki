@@ -8,3 +8,9 @@
 @import url(../blocks/header/__nav-bar/header__nav-bar.css);
 @import url(../blocks/header/__nav-link/header__nav-link.css);
 @import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/directory/directory.css);
+@import url(../blocks/socials/socials.css);
+@import url(../blocks/footer/footer.css);

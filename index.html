@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ITWiki</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 
@@ -23,7 +24,7 @@
             </nav>
         </header>
         <main class="main">
-            <div class="lead">
+            <section class="lead">
                 <div class="lead__container">
                     <div class="lead__info">
                         <h1 class="lead__title">Справочник айтишника</h1>
@@ -32,21 +33,25 @@
                     </div>
                     <img src="/images/mobile-cut.png" alt="" class="lead__pic">
                 </div>
+                <img class="fly1" src="/images/fly1.png" alt="">
+                <img class="fly2" src="/images/fly2.png" alt="">
+                <img class="fly3" src="/images/fly3.png" alt="">
                 <button class="lead__button">Купить</button>
-            </div>
+            </section>
 
             <p class="hidden-text1">Ответь на все</p>
             <p class="hidden-text2">свои вопросы</p>
 
-            <div class="squares">
+            <section class="squares">
+                <h2 class="squares__title">Для чего он?</h2>
                 <div class="squares__container">
                     <img src="/images/squares.png" alt="" class="squares__pic">
                     <div class="squares__text-container">
-                        <p class="squares__text1">Вокруг очень много информации. Зачастую, когда хочешь принять важное жизненное решение — очень сильно устаёшь и в итоге многое упускаешь.</p>
-                        <p class="squares__text2">Чтобы не упускать важные моменты жизни, не терять деньги и время, мы создали этот справочник и постоянно обновляем его.</p>
+                        <p class="squares__text1">Вокруг очень много информации. Зачастую, когда хочешь принять важное жизненное решение — <span style="color: rgba(23, 44, 231, 1);">очень сильно</span> устаёшь и в итоге многое упускаешь.</p>
+                        <p class="squares__text2">Чтобы не упускать <span style="color: rgba(23, 44, 231, 1);">важные моменты жизни</span>, не терять деньги и время, мы создали этот справочник и постоянно обновляем его.</p>
                     </div>    
                 </div>
-            </div>
+            </section>
             <section class="main__description description">
                 <div class="container">
                     <div class="description__inner">
@@ -96,11 +101,18 @@
                             </div>
                         </div>
                         <div class="directory__content">
-                            <div class="directory__img">
-                                <img src="./images/directory__image/1.jpg" alt="">
-                                <img src="./images/directory__image/2.jpg" alt="">
-                                <img src="./images/directory__image/3.jpg" alt="">
-                            </div>
+                            <div class="swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                  <!-- Slides -->
+                                  <div class="swiper-slide"><img src="/images/directory__image/1.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="/images/directory__image/2.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="/images/directory__image/3.png" alt=""></div>
+                                  ...
+                                </div>
+                              
+                              </div>
+                              <div class="directory__light"></div>
                         </div>
                     </div>
                 </div>
@@ -157,10 +169,10 @@
             </div>
         </footer>
     </div>
-        </main>
-        <script src="js/script.js"></script> 
-    </div>   
+        </main>        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>   
 </body>
-<!-- <script src="./js/about.js"></script> -->
 
 </html>

@@ -1,0 +1,10 @@
+.squares__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    margin: 0;
+    text-align: right;
+    position: relative;
+    top: 200px;
+    right: 100px;
+}

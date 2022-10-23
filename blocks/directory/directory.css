@@ -45,3 +45,11 @@
 .directory__content {}
 
 .directory__img {}
+
+.directory__light {
+  width: 1156px;
+  height: 64px;
+  margin: 102px 0 0 382px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(228, 230, 241, 0.5) 0%, rgba(217, 217, 217, 0) 100%);
+  filter: blur(10px);
+}

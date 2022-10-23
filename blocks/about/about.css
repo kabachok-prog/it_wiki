@@ -21,9 +21,6 @@
 }
 
 .about__img {
-  content: "";
-  top: 0;
-  left: 0;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   margin-right: 77px;

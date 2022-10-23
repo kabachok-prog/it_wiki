@@ -1,0 +1,162 @@
+body {
+  background-color: #000000;
+}
+
+.main {
+  background: #000000;
+}
+
+.main__buy {}
+
+.buy {
+  
+}
+
+.container {
+  /* background: #EDEAE9; */
+  /* height: 100vh; */
+}
+
+.background {
+  
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.buy__background {
+  /* padding: 0 493px; */
+  background: #EDEAE9;
+  height: 100vh;
+  border-radius: 50px;
+  /* clip-path: polygon(25% 0%, 88% 0, 100% 20%, 100% 100%, 0 100%, 0 0); */
+}
+
+.buy__header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 124px;
+  padding-top: 106px;
+  position: relative;
+}
+
+.buy__header::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -463px;
+  background: url(/images/buy__image/Планетка.svg) 0 0 / 100% no-repeat;
+  width: 274px;
+  height: 274px;
+}
+
+.buy__content {}
+
+.buy__rate {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 0 390px;
+}
+
+.buy__rate-one {
+  margin-right: 190px;
+}
+
+.buy__rate-1 {
+  font-family: 'Bicubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 104px;
+  line-height: 118.8%;
+  color: #172CE7;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  /* margin-right: 342px; */
+}
+
+.buy__rate-1::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 280px;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  height: 44px;
+}
+
+.rate::after {
+  content: none;
+}
+
+.buy__rate-desc {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+  color: #000000;
+  max-width: 235px;
+  max-height: 82px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.buy__rate-price {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 25%;
+}
+
+.buy__rate-price--2 {
+  padding-left: 31%;
+}
+
+.buy__rate-price::after {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 34px;
+  background: url(/images/buy__image/rubles.svg);
+  margin-left: 8px;
+
+}
+
+.subscribe {
+  margin-left: 20px;
+}
+
+.buy__subscribe {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: #172ce7;
+  border-radius: 10px;
+  border-color: transparent;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  max-width: 203px;
+  max-height: 54px;
+  padding: 12px 19px;
+  transition: all .3s;
+}
+
+.buy__subscribe:hover {
+  background-color: white;
+  color: #172CE7;
+}

@@ -105,6 +105,10 @@
   margin-right: 0;
 }
 
-.footer__socials-img {
-    
+.footer__socials-img path {
+  transition: all .3s;
+}
+
+.footer__socials-img:hover path {
+    fill: #172CE7;
 }

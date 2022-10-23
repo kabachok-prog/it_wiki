@@ -5,8 +5,7 @@
 .footer__content {
   display: flex;
   align-items: center;
-  padding: 0 100px;
-  padding-bottom: 130px;
+  padding: 50px 100px;
 }
 
 .footer__line {

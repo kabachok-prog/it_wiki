@@ -65,12 +65,12 @@
 }
 
 .socials__image-2:hover {
-  background-image: url(/images/socials__image/2_desc.jpg);
+  background-image: url(../../images/socials__image/2_desc.jpg);
   border-radius: 20px;
 }
 
 .socials__image-3 {
-  background-image: url(/images/socials__image/3.jpg);
+  background-image: url(../../images/socials__image/3.jpg);
   width: 450px;
   height: 681px;
   border-radius: 20px;
@@ -78,6 +78,6 @@
 }
 
 .socials__image-3:hover {
-  background-image: url(/images/socials__image/3_desc.jpg);
+  background-image: url(../../images/socials__image/3_desc.jpg);
   border-radius: 20px;
 }

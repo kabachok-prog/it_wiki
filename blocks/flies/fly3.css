@@ -1,0 +1,12 @@
+.fly3 {
+    position: absolute;
+    top: 550px;
+    left: 1650px;
+    animation: floating2 4s infinite ease-in-out;
+}
+
+@keyframes floating2 {
+    0% { transform: translate( 0 , 0px ); }
+    50% { transform: translate( 0 , -13px ); }
+    100% { transform: translate( 0 , -0px ); }
+}

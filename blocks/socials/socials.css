@@ -44,7 +44,7 @@
 }
 
 .socials__image-1 {
-  background-image: url(/images/socials__image/1.jpg);
+  background-image: url(../../images/socials__image/1.jpg);
   width: 450px;
   height: 681px;
   border-radius: 20px;
@@ -52,12 +52,12 @@
 }
 
 .socials__image-1:hover {
-  background-image: url(/images/socials__image/1_desc.jpg);
+  background-image: url(../../images/socials__image/1_desc.jpg);
   border-radius: 20px;
 }
 
 .socials__image-2 {
-  background-image: url(/images/socials__image/2.jpg);
+  background-image: url(../../images/socials__image/2.jpg);
   width: 450px;
   height: 681px;
   border-radius: 20px;

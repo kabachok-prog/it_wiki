@@ -11,4 +11,9 @@
     position: absolute;
     left: 100px;
     bottom: 120px;
+    transition: .1s ease;
+}
+
+.lead__button:hover {
+    font-size: 37px;
 }

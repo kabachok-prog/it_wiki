@@ -1,0 +1,8 @@
+@keyframes text2anim {
+    from {left: 1000px;}
+    to {left: 500px;}
+}
+
+.hidden-text2__animation {
+    animation: text2anim 2s ease forwards;
+}

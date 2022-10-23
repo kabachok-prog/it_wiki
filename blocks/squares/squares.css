@@ -1,0 +1,9 @@
+.squares {
+    background-image: url(/images/bg-squares.png);
+    min-height: 1023px;
+    margin-top: -100px;
+    z-index: 2;
+    position: relative;
+}
+
+

@@ -41,3 +41,17 @@ const swiper = new Swiper('.swiper', {
 
 
 });
+
+const swiper2 = new Swiper('.swiper2', {
+  // Optional parameters
+  direction: 'vertical',
+  effect: 'fade',
+  loop: false,
+  slidesPerView: 1,
+  mousewheel: {
+    invert: false,
+    releaseOnEdges: true,
+  },
+  speed: 1000,
+  touchMoveStopPropagation: true,
+});

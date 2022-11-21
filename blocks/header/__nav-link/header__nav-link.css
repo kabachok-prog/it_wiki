@@ -1,4 +1,9 @@
 .header__nav-link {
     text-decoration: none;
     color: black;
+    transition: .3s ease;
+}
+
+.header__nav-link:hover {
+    color: #172CE7;
 }
